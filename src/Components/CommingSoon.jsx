@@ -1,12 +1,12 @@
 import { Box } from '@chakra-ui/react'
 import React from 'react'
 
-const Portfolio = () => {
+const CommingSoon = () => {
   return (
     <Box h="100%" w="80%" bgColor="#bdbdbd75">
-      Portfolio
+      Comming Soon
     </Box>
   )
 }
 
-export default Portfolio
+export default CommingSoon

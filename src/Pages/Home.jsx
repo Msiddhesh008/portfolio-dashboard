@@ -4,12 +4,14 @@ import Hero from "../Components/Hero";
 import AboutMe from "../Components/AboutMe";
 import Portfolio from "../Components/Portfolio";
 import Contact from "../Components/Contact";
+import DefaultLayout from "../Layout/DefaultLayout";
 
 const Home = () => {
   return (
     <Box>
       <Hero />
-      <AboutMe />
+      <DefaultLayout />
+      {/* <AboutMe /> */}
       {/* <Portfolio />
       <Contact /> */}
     </Box>
